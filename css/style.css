@@ -1,0 +1,356 @@
+:root {
+  --primary-text-color: #1e2e36;
+  --primary-background: #fff;
+  --color-logo-start: ;
+  --color-logo: ;
+  --color-h1: ;
+  --colir-p-title: ;
+  --color-fon-button: ;
+  --background-fon: ;
+  --button-beckground: #44c697;
+}
+
+body {
+  position: relative;
+  width: 1920px;
+  height: 5219px;
+  margin: 0 auto;
+  color: var(--primary-text-color);
+  background-color: var(--primary-background);
+  font-family: "Proxima Nova Ag", sans-serif;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  /* text-decoration: none; */
+}
+
+.site-nav {
+  position: absolute;
+  width: 1920px;
+  height: 165px;
+  left: 0px;
+  top: 0px;
+}
+
+.site-nav-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: 591px;
+  height: 40px;
+  left: 51px;
+}
+
+.link-maito {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-size: 18px;
+  line-height: 22.5px;
+  width: 390px;
+  height: 40px;
+  /* padding-left: 50px; */
+}
+
+.link-maito-tel {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-size: 18px;
+  line-height: 22.5px;
+  width: 181px;
+  height: 24px;
+  margin-left: 50px;
+}
+.link-left {
+}
+.maito-but {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  background-color: var(--primary-background);
+  border: none;
+}
+.maito-but-f {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  background-color: var(--primary-background);
+  border: none;
+}
+
+.site-nav-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 0px;
+  gap: 15px;
+  position: absolute;
+  width: 572px;
+  height: 23px;
+  left: 1297px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+  font-size: 17px;
+  line-height: 22.5px;
+}
+
+.site-nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 0px;
+  gap: 15px;
+  position: absolute;
+  width: 614px;
+  height: 23px;
+  left: 51px;
+  top: 101px;
+}
+
+.link-list {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.chevron-left {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.current {
+  border-bottom: 3px solid var(--button-beckground);
+}
+.hr {
+  margin-top: 60px;
+}
+.site-nav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+  position: absolute;
+  width: 614px;
+  height: 23px;
+  left: 51px;
+  top: 101px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding:  0px; */
+  /* gap: 15px; */
+  position: absolute;
+  width: 360px;
+  height: 75px;
+  left: 780px;
+  top: 75px;
+  font-size: 36px;
+  line-height: 45px;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.logo-f {
+  color: var(--button-beckground);
+  font-size: 36px;
+  line-height: 45px;
+  margin-left: 15px;
+}
+
+.site-nav-basket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  /* gap: 30px; */
+  position: absolute;
+  width: 410px;
+  height: 51px;
+  left: 1459px;
+  top: 87px;
+  margin: 0;
+}
+
+.basket-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.basket-but {
+  font-family: "Proxima Nova Ag", sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 132px;
+  height: 51px;
+  font-size: 18px;
+  line-height: 22.5px;
+  text-transform: uppercase;
+  background-color: var(--primary-background);
+  border: var(--primary-background);
+}
+
+.basket-button {
+  font-family: "Proxima Nova Ag", sans-serif;
+  font-weight: 700;
+  width: 278px;
+  height: 51px;
+  font-size: 18px;
+  line-height: 22.5px;
+  text-transform: uppercase;
+  background: var(--button-beckground);
+  border: var(--button-beckground);
+  border-radius: 3px;
+  color: var(--primary-background);
+}
+
+.slider {
+  position: absolute;
+  width: 1920px;
+  height: 785px;
+  left: 0px;
+  top: 165px;
+}
+.slide-line {
+  width: 15px;
+  height: 670px;
+  background-color: var(--button-beckground);
+  /* padding-top: 0; */
+}
+/* #carouselExampleDark{
+  width: 462px;
+  height: 670px;
+} */
+
+.slider-h1 {
+  position: absolute;
+  width: 462px;
+  height: 670px;
+  left: 51px;
+  top: 0;
+  background-color: var(--primary-background);
+  display: flex;
+  padding: auto;
+}
+h1 {
+  font-size: 64px;
+  margin: 99px 0 0 78px;
+}
+h3 {
+  font-size: 36px;
+  margin: 50px 0 0 101px;
+}
+.slider-p {
+  font-weight: 400;
+  font-size: 36px;
+  margin: 10px 0 0 75px;
+}
+.slider-but {
+  position: absolute;
+  width: 209px;
+  height: 51px;
+  margin: 30px 0 0 112px;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: var(--button-beckground);
+  color: var(--primary-background);
+  border-radius: 3px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.benefits {
+  position: absolute;
+  width: 1818px;
+  height: 462px;
+  left: 51px;
+  top: 1050px;
+}
+
+.categories {
+  position: absolute;
+  width: 1818px;
+  height: 1208px;
+  left: 51px;
+  top: 1612px;
+}
+
+.about {
+  position: absolute;
+  width: 1920px;
+  height: 785px;
+  left: 0px;
+  top: 2920px;
+}
+
+.about-foto {
+  position: absolute;
+  width: 1407px;
+  height: 675px;
+  left: 513px;
+  /* top: 3030px; */
+}
+
+.question {
+  position: absolute;
+  width: 1920px;
+  height: 785px;
+  left: 0px;
+  top: 3805px;
+}
+
+.question-foto {
+  position: absolute;
+  width: 1561px;
+  height: 675px;
+  /* left: 1561px; */
+  /* top: 3915px; */
+
+  /* background: url(cozy-studio-apartment-with-bedroom-and-living-space.jpg); */
+  border-radius: 0px 3px 3px 0px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.gender {
+  position: absolute;
+  width: 1920px;
+  height: 520px;
+  left: 0px;
+  top: 4699px;
+}
+
+.gender-text {
+  position: absolute;
+  width: 831px;
+  height: 520px;
+  left: 0px;
+  background: #1e2e36;
+}
+
+.gender-foto {
+  position: absolute;
+  width: 1089px;
+  height: 520px;
+  left: 831px;
+  /* top: 4699px; */
+
+  /* background: url(illustration-of-the-living-room-interior.jpg); */
+  border-radius: 0px;
+}
