@@ -1,9 +1,9 @@
 :root {
   --primary-text-color: #1e2e36;
   --primary-background: #fff;
-  --color-logo-start: ;
-  --color-logo: ;
-  --color-h1: ;
+  --color-black: #000;
+  --color-red: #ff1b1b;
+  --color-grei: #bcbdbb;
   --colir-p-title: ;
   --color-fon-button: ;
   --background-fon: ;
@@ -19,6 +19,16 @@ body {
   background-color: var(--primary-background);
   font-family: "Proxima Nova Ag", sans-serif;
   font-weight: 700;
+  padding: 0;
+}
+
+h5,
+h4,
+h3,
+h2 {
+  font-family: "Proxima Nova Ag", sans-serif;
+  font-weight: 700;
+  margin: 0;
 }
 
 ul {
@@ -153,8 +163,6 @@ ul {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* padding:  0px; */
-  /* gap: 15px; */
   position: absolute;
   width: 360px;
   height: 75px;
@@ -302,7 +310,7 @@ h3 {
 }
 
 .benefits-h2 {
-   font-weight: 700;
+  font-weight: 700;
   height: 45;
   font-size: 48px;
   line-height: 60px;
@@ -375,6 +383,7 @@ h3 {
 .col-xxl-1 {
   width: 100px;
   height: 140px;
+  padding: 0;
 }
 .categories-img {
   width: 100px;
@@ -382,43 +391,240 @@ h3 {
 }
 
 .text-centr {
-  font-family: "Proxima Nova Ag", sans-serif;
   text-align: center;
   width: 100px;
   text-transform: uppercase;
   margin-top: 10px;
   font-weight: 700;
 }
+.categories-list {
+  padding: 0;
+  margin: 84px 0 0 0;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.categories-1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px 65px 15px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.categories-2 {
+  width: 143px;
+  height: 33px;
+  background-color: var(--color-black);
+  color: var(--primary-background);
+  text-transform: uppercase;
+  margin: 10px 0 0 0;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.categories-3 {
+  margin-top: -43px;
+}
+.categories-h5 {
+  padding-top: 6px;
+  font-size: 18px;
+  line-height: 22.5px;
+}
+.categories-4 {
+  margin-left: 200px;
+  color: var(--color-red);
+}
+.categories-5 {
+  color: var(--color-grei);
+  text-decoration: line-through;
+  font-size: 18px;
+}
+.categories-6 {
+  width: 84px;
+  height: 33px;
+  background-color: var(--color-red);
+  color: var(--primary-background);
+  font-size: 18px;
+  line-height: 22.5px;
+  text-align: center;
+  padding-top: 6px;
+  margin-top: -325px;
+  position: relative;
+  z-index: 1;
+}
+.categories-7 {
+  text-transform: uppercase;
+}
+.categories-button {
+  width: 190px;
+  height: 51px;
+  border-radius: 3px;
+  border-color: var(--button-beckground);
+  background: var(--button-beckground);
+  color: var(--primary-background);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Proxima Nova Ag", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22.5px;
+  margin: 10px 0 0 825px;
+}
+
 .about {
   position: absolute;
   width: 1920px;
   height: 785px;
-  left: 0px;
-  top: 2920px;
+  margin-top: 100px;
 }
-
+.about-h2 {
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  margin-left: 860px;
+  font-size: 48px;
+  line-height: 60px;
+}
+.about-rectangle {
+  background-color: var(--button-beckground);
+  width: 20px;
+  height: 50px;
+  margin: -55px 0 0 4px;
+}
+.about-span {
+  color: var(--button-beckground);
+  text-transform: uppercase;
+  font-family: "Proxima Nova Ag", sans-serif;
+  font-weight: 700;
+}
+.about-p {
+  position: relative;
+  width: 791px;
+  height: 475px;
+  margin-top: 155px;
+  background-color: var(--primary-background);
+  z-index: 1;
+  padding: 50px 30px 50px 51px;
+  font-size: 18px;
+  line-height: 22.5px;
+}
+.about-conteiner {
+  width: 15px;
+  height: 475px;
+  background-color: var(--button-beckground);
+  margin: -458px 0 0 740px;
+  border-radius: 0 3px 3px 0;
+}
 .about-foto {
-  position: absolute;
   width: 1407px;
   height: 675px;
-  left: 513px;
-  /* top: 3030px; */
+  margin: -575px 0 0 513px;
 }
 
 .question {
-  position: absolute;
+  /* position: absolute; */
   width: 1920px;
   height: 785px;
-  left: 0px;
-  top: 3805px;
+  margin-top: 985px;
+}
+.question-h2 {
+  width: 550px;
+  height: 60px;
+  text-align: center;
+  margin-left: 860px;
+  font-size: 48px;
+  line-height: 60px;
+}
+.question-rectangle {
+  background-color: var(--button-beckground);
+  width: 20px;
+  height: 50px;
+  margin: -55px 0 0 1px;
 }
 
 .question-foto {
-  position: absolute;
   width: 1561px;
   height: 675px;
-  border-radius: 0px 3px 3px 0px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin-top: -560px;
+}
+.question-p {
+  position: relative;
+  width: 528px;
+  height: 457px;
+  margin: 150px 0 0 1392px;
+  background-color: var(--primary-background);
+  z-index: 1;
+  padding: 50px 51px 50px 30px;
+  font-size: 18px;
+  line-height: 22.5px;
+  border-radius: 3px;
+}
+.question-button-1 {
+  width: 432px;
+  height: 51px;
+  margin-top: 30px;
+  border-radius: 3px;
+  background-color: var(--primary-background);
+  text-align: left;
+  color: var(--color-grei);
+}
+.question-button-2 {
+  width: 432px;
+  height: 51px;
+  margin-top: 15px;
+  border-radius: 3px;
+  background-color: var(--primary-background);
+  text-align: left;
+  color: var(--color-grei);
+}
+.question-button-3 {
+  width: 432px;
+  height: 51px;
+  margin-top: 15px;
+  border-radius: 3px;
+  background-color: var(--button-beckground);
+  border: var(--button-beckground);
+  color: var(--primary-background);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22.5px;
+}
+.question-h5 {
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 22.5px;
+  font-weight: 400;
+}
+.question-span {
+  font-size: 18px;
+  line-height: 22.5px;
+  font-weight: 700;
+}
+.question-conteiner {
+  width: 15px;
+  height: 457px;
+  background-color: var(--button-beckground);
+  margin: -405.5px 0 0 -30px;
+  border-radius: 3px 0 0 3px;
+}
+.question-h3 {
+  margin: 0;
+  font-size: 36px;
+  line-height: 45px;
+}
+.end-button {
+  position: relative;
+  z-index: 1;
+  border: none;
+  padding: 0;
+  width: 75px;
+  height: 75px;
+  margin: 100px 0 0 36px;
+  background-color: none;
+  border-radius: 35px;
 }
 
 .gender {
@@ -434,7 +640,53 @@ h3 {
   width: 831px;
   height: 520px;
   left: 0px;
-  background: #1e2e36;
+  background: var(--primary-text-color);
+}
+.logo-gender {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 360px;
+  height: 75px;
+  left: 51px;
+  top: 75px;
+  font-size: 36px;
+  line-height: 45px;
+  text-decoration: none;
+  color: var(--primary-background);
+}
+.gender-1 {
+  width: 99px;
+  height: 213px;
+  color: var(--primary-background);
+  margin: 175px 0 0 51px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22.5px;
+  padding: 0;
+}
+
+.gender-2 {
+  margin-top: 15px;
+}
+.gender-3 {
+  width: 221px;
+  height: 137px;
+  color: var(--primary-background);
+  margin: -230px 0 0 205px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22.5px;
+  padding: 0;
+}
+.gender-4 {
+  margin-top: 15px;
 }
 
 .gender-foto {
