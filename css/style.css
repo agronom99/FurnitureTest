@@ -68,8 +68,8 @@ ul {
   height: 24px;
   margin-left: 50px;
 }
-.link-left {
-}
+/* .link-left {
+} */
 .maito-but {
   width: 40px;
   height: 40px;
@@ -232,12 +232,7 @@ ul {
   width: 15px;
   height: 670px;
   background-color: var(--button-beckground);
-  /* padding-top: 0; */
 }
-/* #carouselExampleDark{
-  width: 462px;
-  height: 670px;
-} */
 
 .slider-h1 {
   position: absolute;
@@ -276,12 +271,60 @@ h3 {
   border: none;
 }
 
+.slider-text {
+  font-family: "Proxima Nova Ag", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 131px 0 0 175px;
+}
+.slider-text-left {
+  font-size: 36px;
+}
+
+.button-slider-left {
+  border: none;
+  background-color: var(--primary-background);
+  width: 30px;
+  height: 30px;
+  margin: 5px 8px 0 178px;
+}
+
+.button-slider {
+  border: none;
+  background-color: var(--primary-background);
+  width: 30px;
+  height: 30px;
+}
 .benefits {
   position: absolute;
   width: 1818px;
   height: 462px;
   left: 51px;
   top: 1050px;
+}
+
+.benefits-h2 {
+  font-size: 48px;
+  line-height: 60px;
+  margin: 0 0 52px 791px;
+  display: inline-flex;
+}
+.benefits-rectangle {
+  background-color: var(--button-beckground);
+  width: 20px;
+  height: 50px;
+}
+
+.benefits-foto {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  color: var(--button-beckground);
+  /* position: absolute; */
+}
+.benefits-h3 {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
 }
 
 .categories {
@@ -320,10 +363,6 @@ h3 {
   position: absolute;
   width: 1561px;
   height: 675px;
-  /* left: 1561px; */
-  /* top: 3915px; */
-
-  /* background: url(cozy-studio-apartment-with-bedroom-and-living-space.jpg); */
   border-radius: 0px 3px 3px 0px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
