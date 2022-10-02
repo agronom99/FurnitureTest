@@ -298,6 +298,7 @@ h3 {
   background-color: var(--primary-background);
   width: 30px;
   height: 30px;
+  margin-top: 5px;
 }
 .benefits {
   width: 1818px;
@@ -450,7 +451,7 @@ h3 {
   line-height: 22.5px;
   text-align: center;
   padding-top: 6px;
-  margin-top: -325px;
+  margin-top: -375px;
   position: relative;
   z-index: 1;
 }
@@ -569,6 +570,7 @@ h3 {
   background-color: var(--primary-background);
   text-align: left;
   color: var(--color-grei);
+  border-color:  var(--primary-text-color);
 }
 .question-button-2 {
   width: 432px;
@@ -578,6 +580,7 @@ h3 {
   background-color: var(--primary-background);
   text-align: left;
   color: var(--color-grei);
+  border-color: var(--primary-text-color);
 }
 .question-button-3 {
   width: 432px;
@@ -620,11 +623,12 @@ h3 {
   z-index: 1;
   border: none;
   padding: 0;
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
   margin: 100px 0 0 36px;
   background-color: none;
   border-radius: 35px;
+  color: var(--button-beckground);
 }
 
 .gender {
@@ -698,4 +702,60 @@ h3 {
 
   /* background: url(illustration-of-the-living-room-interior.jpg); */
   border-radius: 0px;
+}
+.gender-5{
+  width: 71px;
+  height: 24px;
+  padding: 0;
+  margin: -250px 0 0 513px;
+}
+.gender-6{
+   width: 163px;
+  height: 24px;
+  padding: 0;
+  margin: -235px 0 0 513px;
+}
+.gender-7{
+  color: var(--button-beckground);
+  padding:-50px 0 0 0;
+  margin: -105px 0 0 513px;
+
+}
+.gender-8{
+  color: var(--button-beckground);
+  font-size: 18px;
+  line-height: 22.5px;
+}
+.gender-9{
+  color: var(--button-beckground);
+  font-size: 18px;
+  line-height: 22.5px;
+   margin: -100px 0 0 540px;
+}
+.gender-10{
+   margin: 30px 0 0 517px;
+color: var(--primary-background);
+font-size: 18px;
+line-height: 22.5px;
+font-weight: 400;
+}
+.gender-11{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+.gender-12{
+  color: var(--primary-background);
+  margin: 70px 0 0 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+
+}
+.gender-13{
+  margin: -40px 0 0 514px;
+}
+.gender-14{
+  color: #1e2e36;
 }
