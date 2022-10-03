@@ -10,6 +10,7 @@
   --button-beckground: #44c697;
 }
 
+
 body {
   position: relative;
   width: 1920px;
@@ -50,9 +51,11 @@ ul {
   padding: 0px;
   width: 591px;
   height: 40px;
-  position: absolute;
-  margin: 0 0 0 51px;
-  top: 10px;
+  margin: 10px 0 0 51px;
+}
+.site-nav-title-1{
+  margin-left: 50px;
+  display: flex;
 }
 
 .link-maito {
@@ -66,24 +69,15 @@ ul {
   height: 40px;
 }
 
-.link-maito-tel {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: var(--primary-text-color);
-  font-size: 18px;
-  line-height: 22.5px;
-  width: 181px;
-  height: 24px;
-  margin-left: 50px;
-}
-
 .maito-but {
   width: 40px;
   height: 40px;
   margin: 0 5px;
   background-color: var(--primary-background);
   border: none;
+}
+.maito-but:hover{
+  opacity: 0.5;
 }
 .maito-but-f {
   width: 40px;
@@ -92,47 +86,86 @@ ul {
   background-color: var(--primary-background);
   border: none;
 }
+.maito-but-f:hover{
+  opacity: 0.5;
+}
+
+.select-tel {
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  display: block;
+}
+.select-tel:hover a{
+  opacity: 0.5;
+  display: block;
+
+}
 
 .site-nav-name {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0px;
-  position: absolute;
   width: 572px;
   height: 23px;
-  top: 18px;
-  margin: 0 0 0 1297px;
+  margin: -30px 0 0 1297px;
+}
+.site-nav-name:hover{
+  color: var(--button-beckground);
 }
 
-.link {
+.site-nav-name  a {
   text-decoration: none;
   color: var(--primary-text-color);
   text-transform: uppercase;
   font-size: 17px;
   line-height: 22.5px;
 }
-
+.site-nav-name a:hover{
+  color: var(--button-beckground);
+}
 .site-nav-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* align-items: center; */
   padding: 0px;
   gap: 15px;
   position: absolute;
+  z-index: 1;
   width: 614px;
   height: 23px;
   left: 51px;
   top: 101px;
 }
 
+.link-list-li{
+  display: inline-block;
+}
 .link-list {
-  text-decoration: none;
+  position: relative;
   color: var(--primary-text-color);
   text-transform: uppercase;
   font-size: 18px;
+  margin: 0;
+  cursor: pointer;
 }
+.link-list-se{
+  position: absolute;
+  display: none;
+  border: none;
+}
+.link-list-se a{
+  display: block;
+  color: var(--button-beckground);
+  background: var(--primary-background);
+}
+.link-list-li:hover .link-list-se{
+  display: block;
+  border: none;
+}
+
+
 .chevron-left {
   width: 20px;
   height: 20px;
@@ -142,9 +175,8 @@ ul {
   border-bottom: 3px solid var(--button-beckground);
 }
 .hr {
-  position: absolute;
-  top: 60px;
   width: 1920px;
+  margin: 10px;
 }
 .site-nav-list {
   display: flex;
@@ -179,6 +211,10 @@ ul {
   line-height: 45px;
   margin-left: 15px;
 }
+.logo:hover {
+  color: var(--button-beckground);
+  opacity: 0.5;
+}
 
 .site-nav-basket {
   display: flex;
@@ -212,6 +248,9 @@ ul {
   text-transform: uppercase;
   background-color: var(--primary-background);
   border: var(--primary-background);
+}
+.basket-but:hover, .basket-button:hover{
+  opacity: 0.5;
 }
 
 .basket-button {
