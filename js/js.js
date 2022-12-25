@@ -6,3 +6,11 @@ $(".benefits-ul").slick({
   slidesToScroll: 1,
   
 });
+
+$(".slider__04").slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: false,
+});
