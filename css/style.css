@@ -678,7 +678,7 @@ button.slick-next.slick-arrow::before {
   margin: 40px 0 0 30px;
 }
 .question-button-1 {
-  width: 432px;
+  width: 415px;
   height: 51px;
   margin: 125px 0 0 30px;
   border-radius: 3px;
@@ -687,11 +687,12 @@ button.slick-next.slick-arrow::before {
   color: var(--color-grei);
   border-color: var(--primary-text-color);
   font-size: 18px;
-  padding: 0;
+  padding: 0 0 0 15px;
+  /* margin-left: 15px; */
 
 }
 .question-button-2 {
-  width: 432px;
+  width: 415px;
   height: 51px;
   margin: 15px 0 0 30px;
   border-radius: 3px;
@@ -700,7 +701,7 @@ button.slick-next.slick-arrow::before {
   color: var(--color-grei);
   border-color: var(--primary-text-color);
   font-size: 18px;
-  padding: 0;
+  padding: 0 0 0 15px;
 
 }
 .question-button-3 {
